@@ -1,7 +1,7 @@
 // this file is basically used for reconstructing all listing
 const express=require("express")
 const router=express.Router()
-const wrapAsync=require("../utils/WrapAsync.js")
+const wrapAsync=require("../utils/wrapAsync.js")
 
 const Listing=require("../model/listing.js")
 const {isLoggedin, isOwner,validateListing} =require("../middleware.js")
